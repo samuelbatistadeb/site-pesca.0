@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="../css/manual/nav.css">
+    <title>Minhas Pescas</title>
+</head>
+<body>
+  <nav class="navbar m-auto navbar-expand-lg color_nav ">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="../php/home.php">
+        <img class="logo" src="../imagens/f.png" alt="...">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="./sobre.html">Sobre</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Menu
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="./minhas_pescas.html">Cadastrar pesca</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="../php/form_itens.php">Cadastrar item</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="../php/principais_locais.php">Principais locais de pesca</a>
+          </li>
+        </ul>
+        </div>
+    </div>
+  </nav>
+  <div class="mt-5 container">
+    <div class="row -sm">
+      <div class="cow -sm">
+        <div class="card" style="width: 18rem;">
+          <div class="card-body">
+            <form action="">
+              <h2 class="card-title">Pescas</h2>
+              <p class="card-text">Registre e compartilhe aqui suas maiores conquistas!</p>
+              <a href="../php/form_pescas.php" class="btn btn-primary" type="submit">Cadastrar</a>
+          </form>
+          </div>
+        </div>
+      </div>
+  </div>
+  <script src="../css/bootstrap/js/bootstrap.bundle.js"></script>
+</body>
+</html>
